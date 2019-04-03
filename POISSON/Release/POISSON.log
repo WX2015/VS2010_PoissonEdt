@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/4/3 0:57:31。
+     1>项目“E:\ProjectS2019\POISSON\POISSON\POISSON.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\POISSON.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Release\POISSON.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /ID:\Eigen3 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main002.cpp
+         main002.cpp
+     1>main002.cpp(211): error C2872: “SparseMat”: 不明确的符号
+                 可能是“main002.cpp(22) : SparseMat”
+                 或       “D:\Opencv020409\opencv\build\include\opencv2/core/core.hpp(3377) : cv::SparseMat”
+     1>main002.cpp(421): error C2872: “SparseMat”: 不明确的符号
+                 可能是“main002.cpp(22) : SparseMat”
+                 或       “D:\Opencv020409\opencv\build\include\opencv2/core/core.hpp(3377) : cv::SparseMat”
+     1>已完成生成项目“E:\ProjectS2019\POISSON\POISSON\POISSON.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.86
